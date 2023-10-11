@@ -1,7 +1,7 @@
 // Create the playable character
 const pc = newPlayableCharacter(100, 110)
 
-// Create a non-playable character
+// Create a non-playable character, starter code already created.
 const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
@@ -13,7 +13,7 @@ npc
     .then(()=> {
         return npc.walkSouth(300)
     })
-
+// etc.
 // Create the inventory
 const inventory = newInventory()
 move(inventory).to(0, 0)
